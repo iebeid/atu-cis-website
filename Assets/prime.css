@@ -1,0 +1,94 @@
+body{
+background-color:#005941;
+color:#003300;
+font-family:Arial,Helvetica,sans-serif;
+}
+.logo{
+background-color:#ffffcc;
+color:#48751A;
+}
+#nav{
+font-size:.70em;
+}
+.contact{
+font-weight:bold;
+font-size:.75em;
+font-family:Times New Roman,sans-serif;
+}
+#footer{
+font-style:italic;
+font-size:.60em;
+}
+.home{
+background-image:url(schaumburg.jpg);
+background-position:-100px -260px;
+background-repeat:no-repeat;
+color:#ffffcc;
+padding:60px 5px 20px 5px;
+width:200px;
+}
+img{
+border-style:none;
+}
+
+.property{
+padding-right:30px;
+padding-top:5px;
+}
+#wrapper{
+width:680px;
+min-width:680px;
+margin:0 auto;
+background-color:#ffffff;
+color:#003300;
+padding-left:10px;
+}
+#leftcolumn{
+float:left;
+width:150px;
+display:block;
+margin:25px 0 15px 15px;
+}
+#pagecontent{
+margin:5px 20px 5px 5px;
+height:400px;
+}
+#rightcolumn{
+margin-left:150px;
+padding:0 20px 20px 0;
+}
+
+table {
+width: 100%;
+margin: auto;
+padding:5px;
+border-collapse: collapse;
+border:none;
+}
+th {
+border:none;
+text-align: left;
+color:#006600;
+padding:.5px;
+}
+td {
+border:none;
+vertical-align:top;
+padding:.5px;
+}
+
+#myForm { border: none;
+padding: 10px;
+margin: 10px;
+min-width: 500px;
+}
+.myRow { padding-bottom: 20px;
+}
+.mySubmit { margin-top: 10px;
+margin-left: 110px;
+}
+.labelCol { float: left;
+width: 100px;
+text-align: right;
+padding-right: 10px;
+}

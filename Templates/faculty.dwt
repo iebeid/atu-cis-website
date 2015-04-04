@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="../Style/style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body>
+<div id="faculty">
+<div id="pic">
+<!-- TemplateBeginEditable name="EditRegion1" -->EditRegion1<!-- TemplateEndEditable -->
+</div>
+<div id="name">
+<!-- TemplateBeginEditable name="EditRegion2" -->EditRegion2<!-- TemplateEndEditable -->
+</div>
+<div id="position">
+<!-- TemplateBeginEditable name="EditRegion3" -->EditRegion3<!-- TemplateEndEditable -->
+</div>
+<div id="desc">
+<!-- TemplateBeginEditable name="EditRegion4" -->EditRegion4<!-- TemplateEndEditable -->
+</div>
+<div id="contacts">
+<!-- TemplateBeginEditable name="EditRegion5" -->EditRegion5<!-- TemplateEndEditable -->
+</div>
+</div>
+</body>
+</html>

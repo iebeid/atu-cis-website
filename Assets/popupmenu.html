@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Test Popup Menu</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="prime.css" type="text/css" />
+<style type="text/css">
+body { font-family: Verdana; }
+
+div.mainmenu {
+    position: absolute;
+    left: 10px;
+    top: 150px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+div.menu {
+    float: left;
+    margin-left: 10px; 
+}
+
+div.popup a:hover { background-color: #faa; }
+div.menu:hover div:first-child { border-bottom: none; }
+div.menu div.popup { display: none; }
+div.menu:hover div.popup { 
+    display: block; 
+    background-color: #99f; 
+}
+
+
+div.menu div {
+    width: 175px;
+    background-color: #66f;
+    padding: 5px;
+    border: solid 2px blue;
+}
+
+
+div.popup div, div.popup a { display:block; text-decoration: none; margin: 2px 2px 2px 5px; }
+div.popup div + div, div.popup a + a { margin-top: 10px; } 
+
+div.content {
+    position: absolute;
+    left: 20px;
+    top: 195px;
+    border: 1px dashed gray;
+}
+
+</style>
+</head>
+<body>
+<div id="wrapper">
+<div class="mainmenu" id="mainmenu">
+    <div class="menu">
+	    <div>CSS</div>
+            <div class="popup">
+	    	<a href="index.html">The menu</a>
+	    	<a href="#">Nowhere</a>
+	    	<a href="#">Nowhere</a>
+	    </div>
+    </div>
+
+    <div class="menu">
+	<div>Fish</div>
+        <div class="popup">
+	    	<a href="#">One fish</a>
+	    	<a href="#">Two fish</a>
+	    	<a href="#">Red fish</a>
+	    	<a href="#">Blue fish</a>
+	</div>
+    </div>
+
+    <div class="menu">
+	<div>JavaScript</div>
+        <div class="popup">
+	    	<a href="highlight.html">Highlighting</a>
+	    	<a href="#">Nowhere</a>
+	    	<a href="#">Also nowhere</a>
+	</div>
+    </div>
+
+    <div class="menu">
+	<div>Oxo</div>
+        <div class="popup">
+	    	<a href="#">Nowhere</a>
+	    	<a href="#">Nowhere else</a>
+	    	<a href="#">And nowhere</a>
+	    	<a href="#">Nowhere too</a>
+	</div>
+    </div>
+</div>
+
+</div>
+</body>
+</html>
